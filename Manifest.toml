@@ -1570,7 +1570,9 @@ version = "1.0.0"
 
 [[deps.RenewalInference]]
 deps = ["BenchmarkTools", "Distributions", "DualNumbers", "ForwardDiff", "IfElse", "InteractiveUtils", "Interpolations", "LineSearches", "LinearAlgebra", "Optim", "Optimization", "OptimizationOptimJL", "Plots", "QuasiMonteCarlo", "Random", "Revise", "SafeTestsets", "StatsBase"]
-path = "C:\\Users\\Santeri\\.julia\\dev\\RenewalInference.jl"
+git-tree-sha1 = "ac999c88a32f83f3f531cf34ae8eb9b27603abf2"
+repo-rev = "main"
+repo-url = "https://github.com/SanteriVtj/RenewalInference.jl.git"
 uuid = "a4ee2418-3667-4893-ad35-afdd55530a8f"
 version = "0.1.0"
 

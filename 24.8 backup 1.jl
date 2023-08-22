@@ -20,12 +20,8 @@ using Pkg
 # ╔═╡ b5124229-065c-459e-b5d5-c14cb3eabeca
 Pkg.activate("C:/Users/Santeri/Desktop/RenewalInference-demos")
 
-# ╔═╡ 595adf14-b975-4e01-8f3f-2f8887ce0bec
-#Pkg.develop(path="C:/Users/Santeri/.julia/dev/RenewalInference.jl")
-Pkg.add(url="https://github.com/SanteriVtj/RenewalInference.jl.git")
-
-# ╔═╡ 7e2bd943-5e7d-4f8d-b491-29318ecd03ea
-Pkg.add(["GLMakie", "CairoMakie", "PlutoUI", "QuasiMonteCarlo", "ForwardDiff", "Distributions", "HypertextLiteral", "LaTeXStrings"])
+# ╔═╡ 69c14d12-73a1-4f52-ac81-1d26c4cba3a2
+Pkg.develop(path="C:/Users/Santeri/.julia/dev/RenewalInference.jl")
 
 # ╔═╡ 196322d5-63f5-40b7-9bce-d72da3915eda
 using GLMakie, CairoMakie, PlutoUI, RenewalInference, QuasiMonteCarlo, ForwardDiff, Distributions, HypertextLiteral, LaTeXStrings
@@ -179,17 +175,16 @@ end
 # ╔═╡ Cell order:
 # ╟─35612b5e-3c43-11ee-0f02-21dc93992596
 # ╟─b5124229-065c-459e-b5d5-c14cb3eabeca
-# ╟─595adf14-b975-4e01-8f3f-2f8887ce0bec
-# ╟─7e2bd943-5e7d-4f8d-b491-29318ecd03ea
+# ╟─69c14d12-73a1-4f52-ac81-1d26c4cba3a2
 # ╟─196322d5-63f5-40b7-9bce-d72da3915eda
 # ╟─428842e3-cc58-4b4e-9e2b-343fbba6a02e
 # ╟─eb415db6-cc5a-487c-810f-fe3f7be9fb4d
-# ╟─52703390-0d26-45c2-ba2d-0177239c0ee4
+# ╠═52703390-0d26-45c2-ba2d-0177239c0ee4
 # ╟─d068cbc2-9679-48c1-88dc-b574cb65f02d
 # ╟─04dc55e7-5a1d-4ba3-b009-a6852bfe49c0
-# ╟─170e925c-d87c-47a0-a572-279b5c715176
-# ╟─56cd3294-aa61-433e-860a-cb3a1221edb0
-# ╟─75c00986-dca4-48d3-975b-8856c8570d40
+# ╠═170e925c-d87c-47a0-a572-279b5c715176
+# ╠═56cd3294-aa61-433e-860a-cb3a1221edb0
+# ╠═75c00986-dca4-48d3-975b-8856c8570d40
 # ╟─edf60fd3-788b-4f9e-98eb-10f7e82e93a6
 # ╟─74f3de4d-5169-4310-b09f-2ef2785f5f9c
 # ╟─41f6f212-2242-4a2e-a2dc-ec66e2c03e78
